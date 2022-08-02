@@ -1,1 +1,3 @@
-## AULAS FEITAS NO IGNITE LAB DA ROCKETSEAT
+## Ignite Lab App
+Made with Diego Fernandes and RocketSeat <br>
+by: Matteo.
