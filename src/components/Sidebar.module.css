@@ -4,7 +4,6 @@
     ISSO É FEITO PORQUE O REACT DIVIDE MINUNCIOSAMENTE EM COMPONENTES TODA A APLICAÇÃO
     PARA FICAR MAIS FÁCIL DE RENDERIZAR, EDITAR E REFATORAR NUM FUTURO (SE PRECISAR)  */
 
-
 .sidebar {
   background: var(--gray-800);
   border-radius: 8px;
@@ -44,7 +43,6 @@
   outline: 2px solid var(--blue-500);
 }
 
-
 .sidebar footer {
   border-top: 1px solid var(--gray-600);
   margin-top: 1.5rem;
@@ -66,4 +64,11 @@
   align-items: center;
   justify-content: center;
 
+  gap: 0.5rem;
+  transition: color 0.4s, background-color 0.4s;
+}
+
+.sidebar footer a:hover {
+  background: var(--blue-500);
+  color: var(--white);
 }
