@@ -7,10 +7,10 @@ export function Post() {
     <article className={styles.post}>
       <header>
           <div className={styles.author}>
-            <img className={styles.avatar} src="https://media-exp1.licdn.com/dms/image/C4D03AQFtIew6ZsLCJw/profile-displayphoto-shrink_800_800/0/1659371939155?e=1665014400&v=beta&t=kz6HBu5jWHhJ1I18OJYhdPoxQCzWTLVBrtOaHSMWwww"/>
+            <img className={styles.avatar} src="https://www.w3schools.com/howto/img_avatar.png"/>
             <div className={styles.authroInfo}>
-              <strong>Matheus Grossi</strong> 
-              <span> MJ </span>
+              <strong>Matheus Grossi F.T</strong> <br />
+              <span> Minstério Jovem </span>
             </div>
           </div>
 
@@ -20,7 +20,7 @@ export function Post() {
         <div className={styles.content}>
           <p>Fala Galera {' '}👋👋👋 </p>  
           <p>Logo menos iremos ter mais uma ação social em comunidade !!! </p>
-          <p> Teremos uma doação de sangue em novembro.</p>
+          <p> Teremos uma doação de sangue em setembro.</p>
           <p> Fiquem antenados para mais informações.</p>
           <p> 👉 Sigam nosso insta </p>
           <p> 👉 <a href="">instagram.com/seliga.bro</a></p>
