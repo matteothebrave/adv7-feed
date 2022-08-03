@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## ADV7 FEED
 
 <b> An app created to a local church to share some informations about programs, events and stuff about the interests of a specific church. Users can interact with comments, likes and replys. </b> <br>
@@ -5,3 +6,8 @@
 ADD
 RocketSeat Ignite Lab <br>
 Created by: Matteo;p
+=======
+## Ignite Lab App
+Made with Diego Fernandes and RocketSeat <br>
+by: Matteo.
+>>>>>>> origin/main
