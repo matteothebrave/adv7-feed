@@ -115,7 +115,7 @@
 .commentForm:focus-within footer {
   visibility: visible;
   max-height: none;
-};
+}
 
 .commentList {
   margin-top: 2rem;
