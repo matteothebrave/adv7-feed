@@ -65,6 +65,7 @@ export function App() {
                  return (
                  
                  <Post 
+                    key={post.content}
                     author={post.author}
                     content={post.content}
                     publishedAt={post.publishedAt}
