@@ -18,6 +18,8 @@ export function Post({ author, publishedAt, content}) {
 const [newCommentText, setNewCommentText] = useState('')
 
 
+
+
 const publishedDateFormatted = format(publishedAt, "d 'de' LLLL 'às' HH:mm'h'", {
     locale: ptBR,
   })
@@ -35,6 +37,11 @@ const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
 
     function handleNewCommentChange() { 
         setNewCommentText(event.target.value);
+        event.target.setCustomValidity('');
+  }
+
+  function handleNewCommentInvalid() {
+        event.target.setCustomValidity('Este campo é obrigatório');
   }
 
     function deleteComment(commentsToDelete) {
@@ -45,7 +52,7 @@ const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
           setComments(commentsWithoutDeletedOne)
     }
 
-
+  const isNewCommentEmpty = newCommentText.length == 0 
   return (
     <article className={styles.post}>
       <header>
@@ -59,10 +66,11 @@ const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
 
         <time title={publishedDateFormatted} dateTime={publishedAt.toISOString()}>
           {publishedDateRelativeToNow}
-          </time>
+          </time> 
         
       </header>
-              
+
+         
                                     
       <div className={styles.content}>
             {content.map(line => {
@@ -83,10 +91,13 @@ const publishedDateRelativeToNow = formatDistanceToNow(publishedAt, {
         placeholder="Escreva um comentário"
         onChange={handleNewCommentChange}
         value={newCommentText}
+        required
+        onInvalid={handleNewCommentInvalid}
          />
 
        <footer>
-        <button type="submit">Publicar</button>
+        <button type="submit" disabled={isNewCommentEmpty}>
+          Publicar</button>
           </footer> 
       </form>
      <div className={styles.commentList}>
