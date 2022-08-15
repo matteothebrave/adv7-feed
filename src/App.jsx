@@ -18,17 +18,17 @@ const posts = [
   {
     id:1, 
     author: {
-      avatarUrl: 'https://www.github.com/matteothebrave.png',
-      name: 'Matheus Grossi',
+      avatarUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSylkNqv1vPGrQ71ycI7WeX_Pz-DXWwPolVR4H9OyiGonR7GvoBQUfOS6N3Sv3lCF5wYME&usqp=CAU',
+      name: 'Pastor Branga',
       role: 'Ministério Jovem'
     },
     content: [      
-      { type: 'paragraph', content: 'Fala Galera👋👋👋', },
+      { type: 'paragraph', content: 'Fala povo abençoado!!' },
       { type: 'paragraph', content: 'Logo menos iremos ter mais uma ação social em comunidade !!!', },
       { type: 'paragraph', content: 'Teremos uma doação de sangue em novembro.', },
       { type: 'paragraph', content: 'Fiquem antenados para mais informações.', },
       { type: 'paragraph', content:  '👉 Siga nosso insta', },
-      { type: 'link', content: 'instagram.com/seliga.bro' },   
+      { type: 'link', content: "instagram.com/seliga.bro",  },   
    ],
    publishedAt: new Date('2022-08-08 13:52:33'),
   }, 

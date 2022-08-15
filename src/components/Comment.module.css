@@ -83,3 +83,22 @@
   content: '\2022';
   padding: 0 0.25rem;
 }
+
+.commentBox footer {
+  border: 0;
+  color: var(--gray-400);
+  cursor: pointer;
+  display: flex;
+}
+
+.buttonDislike {
+  align-items: flex-end;
+  padding: 0.87rem;
+  border-radius: 2px;
+}
+
+.buttonDislike :hover {
+  color: red;
+  transition: 0.4s;
+  border: 0;
+}
