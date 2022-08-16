@@ -5,20 +5,26 @@ import { useState } from 'react'
 
 
 export function Comment({ content, onDeleteComment }) {
-        const [likeCount, setLikeCount] = useState(0);
+        const [likeCount, setLikeCount ] = useState(0);
+        const [dislikeCount, setDislikeCount] = useState(0);
 
         function handleDeleteComment() {
                 onDeleteComment(content)
         };
-          
+        
+       function handleDislikeComment() {
+          let dislikeCount = 1;
+          setDislikeCount(dislikeCount + 0)
+                
+        };
         function handleLikeComment() {
           let likeCount = 1; 
           setLikeCount(likeCount + 0)
-          if (likeCount > 1) {
+          if (likeCount > 1  ) {
             return 
           }
         
-       }
+       };
 
   return (
     
@@ -50,10 +56,10 @@ export function Comment({ content, onDeleteComment }) {
             <span>{likeCount}</span>
             </button>  
             <div className={styles.buttonDislike}> 
-            <button onClick={handleLikeComment}>
+            <button onClick={handleDislikeComment}>
             <ThumbsDown />   
             Não curti           
-            <span>{likeCount}</span>
+            <span>{dislikeCount}</span>
             </button> 
              </div>
         </footer>
