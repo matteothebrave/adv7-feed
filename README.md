@@ -1,7 +1,7 @@
 ## ADV7 - Bro Feed 
 _______
 This is a project designed to be a micro social network for a local church <br>
-[b]Features:[/b] <br>
+Features: <br>
 - Comment; <br>
 - Delete comments; <br> 
 - Check the actual hour / date of comment; <br>
@@ -9,8 +9,8 @@ This is a project designed to be a micro social network for a local church <br>
 - You can (Like) and (Dislike) comments if you want ([i]1 per user[/i]) <br> 
 @  Be free to enjoy the design and the app, which was made with love and perseverance. @
 <br>
-_______
-[b]Upcoming Features:[/b] <br>
+_______ <br> 
+Upcoming Features: <br>
 - Create your own profile; <br>
 - Comment with your own profile; <br>
 - Delete your own comments if you like; <br>
