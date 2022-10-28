@@ -20,3 +20,7 @@ Upcoming Features:
 _______
 Be free to enjoy the design and the app, which was made with perseverance and with love by matteO: <br>
 Special thanks to: Diego Fernandes - Rocket Seat CTO
+
+
+
+Link for live app: https://dulcet-marshmallow-d29b8e.netlify.app/
