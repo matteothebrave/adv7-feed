@@ -1,6 +1,6 @@
 // Importação tradicional com chaves. 
 // Para especificar o que está importando 
-import { Header } from './components/header';
+import { Header } from './components/Header';
 import { Comment } from './components/Comment'
 import { Post } from './components/Post'
 import './global.css';
